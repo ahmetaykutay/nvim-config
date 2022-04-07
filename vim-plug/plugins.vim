@@ -35,4 +35,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
     Plug 'jparise/vim-graphql'
 
+    Plug 'sbdchd/neoformat'
+
 call plug#end()

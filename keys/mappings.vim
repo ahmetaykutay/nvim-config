@@ -18,7 +18,7 @@ nnoremap <TAB> :bnext<CR>
 nnoremap <S-TAB> :bprevious<CR>
 
 " Alternate way to save
-nnoremap <C-s> :w<CR>
+nnoremap <C-W> :w<CR>
 " Alternate way to quit
 nnoremap <C-Q> :q<CR>
 " Use control-c instead of escape
@@ -44,3 +44,6 @@ nmap <F6> :NERDTreeToggle<CR>
 tnoremap <Esc> <C-\><C-n>
 
 nnoremap <C-p> :GFiles<CR>
+
+nnoremap <M-S-f> :Neoformat<CR>
+

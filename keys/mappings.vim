@@ -47,3 +47,5 @@ nnoremap <C-p> :GFiles<CR>
 
 nnoremap <M-S-f> :Neoformat<CR>
 
+nnoremap <F2> :bw<CR>
+
